@@ -1,0 +1,44 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Aula0405
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            
+            // exercicio 30 lista for while
+		// OBS: não consegui fazer o exercicio. Digo isso porque
+		// a multiplicação preco*(i+1) está retornando um valor
+		// esquisito. Nem parece parece que o preço é 0.18
+		// vou aguardar a correção durante a Aula
+
+            /* O Sr. Manoel Joaquim acaba de adquirir uma panificadora e pretende implantar a metodologia da
+            tabelinha, que já é um sucesso na sua loja de 1,99.Você foi contratado para desenvolver o programa
+            que monta a tabela de preços de pães, de 1 até 50 pães, a partir do preço do pão informado pelo
+            usuário,*/
+            double[] paes = new double[50];
+            int i=0;
+            
+            Console.WriteLine("Informe o preço do pão");
+            double preco = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("\nTABELA");
+
+            while (i<50)
+            {
+                
+                paes[i] = preco*(i+1);
+                Console.WriteLine(paes[i]);
+                i++;
+            }
+
+            Console.ReadKey();
+            
+        }
+    }
+}

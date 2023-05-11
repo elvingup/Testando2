@@ -1,0 +1,27 @@
+
+
+Caixa registradora com List<>
+1 - Crie um programa que simule uma caixa registradora. O programa deve receber um número desconhecido de preços de produtos como entrada do usuário, usando o método Add() para adicionar cada valor à lista. Quando o usuário digitar 0 como preço, o programa deve calcular o total da compra usando o método Sum() da lista e exibi-lo na tela. Em seguida, o programa deve pedir ao usuário que informe o valor em dinheiro que foi fornecido e calcular o troco usando o método Subtract() da classe Decimal. Por fim, o programa deve limpar a lista e voltar ao ponto inicial.
+
+receber um numero desconhecido de preços de produtos
+    input - Add()
+
+digitar 0 faz calcular o total da compra - Sum() e exibi-lo
+
+valor em dinheiro - input 
+
+calcular o troco - Subtract() da classe Decimal 
+
+limpar a lista e voltar ao ponto inicial
+
+
+List new List
+Add
+
+if 0 {total Sum() cw} 
+
+cw dinheiro
+
+Subtract() para troco 
+
+.Clear() 

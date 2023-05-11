@@ -1,0 +1,38 @@
+
+2 - Lista de compras com List<>
+Crie um programa que permita ao usuário criar uma lista de compras. O usuário pode adicionar novos itens à lista usando o método Add(), remover itens existentes usando o método Remove() e exibir a lista completa usando o método foreach. Quando o usuário tiver concluído sua lista, ele deve sair do programa.
+
+int op ;
+
+cw opções
+
+List<string> compras 
+
+compras=new List
+
+switch op
+
+    case 1
+
+    do {infotal} while(op==1) 
+
+    case 2 remove();
+
+    default: break;
+
+cw compras
+
+§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+
+    case 1
+        do{
+            
+            foreach
+            compras.Add();
+            
+            cw (concluído)
+                if (op==3){readline(op); break;}
+        
+        
+        
+        }
