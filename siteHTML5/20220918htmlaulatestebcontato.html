@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+		<head>
+			<meta charset='UTF-8'>
+			<title>Formulário de Comunicação</title>
+		</head>
+		<body>
+			<form>
+				<input type='text' name='name' placeholder='Nome'/><br/>
+				<input type='email' name='email' placeholder='e-mail'/><br/>
+				<input type='tel' name='telefone' placeholder='Telefone'/><br/>
+				<input type='number' name='idade' placeholder='Idade'/><br/>
+				<input type='url' name='url-tal' placeholder='LinkedIn URL'/><br/>
+				Grau de urgência<input type='range' name='grau-de-urgencia' min=0 max=10 step=0.01/><br/>
+				<input type='checkbox' name='dia-da-semana' value=2/> Segunda-feira<br/>
+				<input type='checkbox' name='dia-da-semana' value=4/> Quarta-feira<br/>
+				<input type='checkbox' name='dia-da-semana' value=6/> Sexta-feira<br/>
+				<input type='radio' name='horario' value='matutino'/> Matutino
+				<input type='radio' name='horario' value='vespertino'/> Vespertino
+				<input type='radio' name='horario' value='noturno'/> Noturno<br/>
+				<input list='cidade' name='cidade'/>
+				<datalist id='cidade' name='cidade'>
+					<option value='BLUMENAU'>BLUMENAU</option>
+					<option value='FLORIANÓPOLIS'>FLORIANÓPOLIS</option>
+					<option value='JOINVILLE'>JOINVILLE</option>
+				</datalist><br/>
+				<textarea name='mensagem'cols=33 rows=11></textarea><br/>
+				<button type='reset'>
+					Apagar os dados	da mensagem
+				</button><br/>
+				<button type='submit'>
+					Enviar a mensagem
+				</button>
+			</form>
+		</body>
+</html>
